@@ -1,0 +1,24 @@
+# NetBeans
+build/
+dist/
+nbproject/private/
+nbproject/build-impl.xml-*
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.log

@@ -16,14 +16,29 @@ A Java Swing + MySQL pharmacy management system built with NetBeans.
 mysql -u root -p < db/schema.sql
 ```
 
-2. Update your MySQL credentials in the connection provider:
-- Open [src/dao/connectionprovider.java](src/dao/connectionprovider.java) and change the URL, username, and password to match your local MySQL.
+2. Create a local DB config file:
+- Copy `src/dao/db.properties.example` to `src/dao/db.properties`
+- Fill in your local MySQL values
+
+You can also use environment variables:
+- `DB_URL`
+- `DB_USER`
+- `DB_PASSWORD`
 
 ## Run in NetBeans
 
 1. Open the project folder in NetBeans.
 2. Ensure the MySQL Connector/J library is added to the project.
-3. Run the main class: `Pharmacy_management_system`.
+3. Create `src/dao/db.properties` or set `DB_URL`, `DB_USER`, `DB_PASSWORD`.
+4. Run the main class: `Pharmacy_management_system`.
+
+## Sample data (optional)
+
+If you want quick demo data:
+
+```
+mysql -u root -p < db/sample_data.sql
+```
 
 ## Notes
 

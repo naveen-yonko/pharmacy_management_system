@@ -69,21 +69,79 @@ mysql -u root -p < db/sample_data.sql
 
 ## Screenshots
 
-Add screenshots to make the repository presentation stronger.
-Recommended captures:
+### Authentication
 
-1. Login screen
-2. Owner dashboard
-3. Worker dashboard
-4. Add medicine form
-5. Sell medicine / billing screen
+Login screen with role-based access control:
 
-Example markdown format:
+![Login Screen](docs/screenshots/04-login-screen.png)
 
-```md
-### Login
-![Login](docs/screenshots/login.png)
-```
+### Owner Dashboard & Functions
+
+#### Dashboard Overview
+Owner access to full system management:
+
+![Owner Dashboard](docs/screenshots/05-owner-dashboard-overview.png)
+
+#### Medicine Management
+Add new medicines and manage inventory:
+
+![Add Medicine](docs/screenshots/06-owner-add-medicine.png)
+
+View all available medicines and stock levels:
+
+![View Medicines](docs/screenshots/07-owner-view-medicines.png)
+
+#### Customer Management
+Register new customers:
+
+![Add Customer](docs/screenshots/08-owner-add-customer.png)
+
+Track customer records and purchase history:
+
+![View Customers](docs/screenshots/09-owner-view-customers.png)
+
+#### Employee Management
+Add pharmacy staff and workers:
+
+![Add Employee](docs/screenshots/10-owner-add-employee.png)
+
+Monitor all employees in the system:
+
+![View Employees](docs/screenshots/11-owner-view-employees.png)
+
+#### Owner Profile
+View and manage account settings:
+
+![Profile](docs/screenshots/12-owner-view-profile.png)
+
+### Worker Dashboard & Functions
+
+#### Dashboard Overview
+Worker-level access for day-to-day operations:
+
+![Worker Dashboard](docs/screenshots/13-worker-dashboard-overview.png)
+
+#### Sales Workflow
+Register customers quickly during sales:
+
+![Add Customer](docs/screenshots/14-worker-add-customer.png)
+
+Sell medicines with cart interface and price calculations:
+
+![Sell Medicine Interface](docs/screenshots/15-worker-sell-medicine-interface.png)
+
+#### Bill Generation & Output
+Complete sales transaction with inventory updates:
+
+![Sell Medicine Workflow](docs/screenshots/01-sell-medicine-workflow.png)
+
+System generates professional PDF bills:
+
+![Generated Bill (PDF)](docs/screenshots/02-bill-generated-edge.png)
+
+Bills can be viewed and shared digitally:
+
+![Bill Email Share](docs/screenshots/03-bill-email-confirmation.png)
 
 ## Notes
 
